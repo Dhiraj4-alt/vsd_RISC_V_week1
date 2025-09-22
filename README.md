@@ -1,8 +1,6 @@
 # VSD RISC-V Tapeout Program – Week 1 
 
-## 5 days of tasks 
--[Day 1]()
--[Day 2]()
--[Day 3]()
--[Day 4]()
--[Day 5]()
+# Week 1 Tasks
+# Week 1 Tasks
+
+- [Day 1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day1)
