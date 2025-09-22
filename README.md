@@ -4,8 +4,14 @@ Welcome to Week 1! This week, we'll start with the basics of Verilog RTL design 
 
 ## Prerequisites 
 
-The Prerequisites included some topics like how to install some Open Source EDA tools like Yosys and Iverilog and GTKwave this tools will be used in following days of the week 
-it can be accesed in other repository [vsd_RISC_V_week0](https://github.com/Dhiraj4-alt/vsd_RISC_V_week0)
+Before starting Week 1, you should be familiar with installing and setting up some open-source EDA tools, which will be used throughout the week.  
+The main tools are:  
+- **Icarus Verilog (iverilog)** – for compiling and simulating Verilog RTL designs  
+- **Yosys** – for synthesizing RTL code into gate-level netlists  
+- **GTKWave** – for viewing waveforms generated during simulation  
+Detailed installation instructions and setup steps for these tools can be found in the **Week 0 repository**:  [vsd_RISC_V_week0](https://github.com/Dhiraj4-alt/vsd_RISC_V_week0).  
+
+Make sure these tools are installed and working before proceeding, as they are essential for lab exercises and simulations in Week 1.
 
 ## 🗂Week 1 Tasks
 
