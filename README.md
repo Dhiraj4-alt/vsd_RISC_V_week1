@@ -14,7 +14,7 @@ Detailed installation instructions and setup steps for these tools can be found 
 
 Make sure these tools are installed and working before proceeding, as they are essential for lab exercises and simulations in Week 1.
 
-## 🗂Week 1 Tasks
+## 🗂Week 1 Theoritical Learnings
 
 - [Day 1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day1) - Introduction to Verilog RTL design and Synthesis
 - [Day_2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day2) - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
