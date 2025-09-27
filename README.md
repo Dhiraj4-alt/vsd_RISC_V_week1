@@ -99,9 +99,9 @@ show
 ```
 After this step, you can inspect the gate-level design and confirm the structure matches expectations.
 
-``
-![photo7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/80e8a7d18e193100302495cd9471cc7eac3f83d5/Screenshot_2025-09-22_17-43-47.png)
 
+![photo7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/80e8a7d18e193100302495cd9471cc7eac3f83d5/Screenshot_2025-09-22_17-43-47.png)
+``
 ---
 
 
