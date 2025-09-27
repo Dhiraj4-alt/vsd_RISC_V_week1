@@ -20,12 +20,14 @@ Make sure these tools are installed and working before proceeding, as they are e
 - [Day_2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day2) - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 - [Day_3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day3) - Combinational and sequential optmizations
 - [Day_4](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day4) - GLS, blocking vs non-blocking and Synthesis- Simulation mismatch
+- [Day_5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/Day5) - Optimization in synthesis
+
 
 ## 🖥 Week 1 Practical Labs 
 - [Lab1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day1_Labs) - Introduction to Verilog RTL design and Synthesis
 - [Lab2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day2_Labs) - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 - [Lab3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day3_Labs) - Combinational and sequential optmizations
 - [Lab4](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day4_Labs) - GLS, blocking vs non-blocking and Synthesis- Simulation mismatch
-- [Lab5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day5_Labs) - Optimization in synthesis
+- [Lab5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day5_Labs) - 
 
   
