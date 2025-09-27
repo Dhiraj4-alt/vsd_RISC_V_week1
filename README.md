@@ -4,7 +4,7 @@
 
 Below is a generalized YoSys script for synthesizing any RTL design and generating a clean gate-level netlist:
 you can also refer the [day_1]() for detailed work flow 
-
+```
 # Start of YoSys script
 
 # 1️⃣ Read the standard cell library
@@ -30,7 +30,7 @@ write_verilog -noattr <output_netlist>.v
 
 # 8️⃣ Show the design in YoSys GUI
 show
-
+```
 
 ---
 
