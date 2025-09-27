@@ -96,9 +96,6 @@ Faster cells → used for performance paths.
 
 Slower cells → used to satisfy hold time requirements.
 
-# DAY1 Labs
-
-
 
 ---
 
