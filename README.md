@@ -14,6 +14,7 @@ Captures input only on the clock edge.
 
 Ensures stable sequential behavior and avoids glitches between clock transitions.
 
+---
 
 ### 🔹 Simulation & Synthesis Flow
 
@@ -66,20 +67,7 @@ show
 
 ### 🔹 Files Executed
 
-1️⃣ D Flip-Flops
-
-Files simulated using Icarus Verilog and YoSys:
-
-| File Name   | Flip-Flop Type        | Simulation Tool         | Notes / Observations                        |
-|------------|---------------------|------------------------|--------------------------------------------|
-| DSFCONST1.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Verified async reset/set behavior          |
-| DSFCONST2.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Observed waveform for glitch-free capture |
-| DSFCONST3.v | Synchronous DFF     | Icarus Verilog, YoSys  | Stable capture on clock edge               |
-| DSFCONST4.v | Synchronous DFF     | Icarus Verilog, YoSys  | Verified timing and waveform consistency  |
----
-
-2️⃣ Optimization Check Files
-
+1. Optimization Check Files
 These files demonstrate logic optimization techniques in YoSys.
 
 
@@ -94,8 +82,18 @@ File Name	Purpose / Observation
 | OPT5.v        | Final optimization: area/power trade-off    |
 | OPT_CHECK.v   | Verification of optimizations applied        |
 
+2. D Flip-Flops
 
----
+Files simulated using Icarus Verilog and YoSys:
+
+| File Name   | Flip-Flop Type        | Simulation Tool         | Notes / Observations                        |
+|------------|---------------------|------------------------|--------------------------------------------|
+| DSFCONST1.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Verified async reset/set behavior          |
+| DSFCONST2.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Observed waveform for glitch-free capture |
+| DSFCONST3.v | Synchronous DFF     | Icarus Verilog, YoSys  | Stable capture on clock edge               |
+| DSFCONST4.v | Synchronous DFF     | Icarus Verilog, YoSys  | Verified timing and waveform consistency  |
+
+
 
 
 ---
