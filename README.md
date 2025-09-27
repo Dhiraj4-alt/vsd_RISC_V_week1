@@ -43,7 +43,7 @@ read_verilog <design_file>.v
 # Synthesize top module
 synth -top <top_module_name>
 
-# Opt clean 
+# command to do all the propogatin and all optimization
 opt_clean -purge
 
 # Map to library and optimize
@@ -71,27 +71,30 @@ show
 These files demonstrate logic optimization techniques in YoSys.
 
 
-File Name	Purpose / Observation
+File and execution
 
-| File Name     |                        | Screenshot ||------------|---------------|
-| OPT1.v        | [Photo1](#opt1-screenshot) |
-| OPT2.v        | Further reduction of area & delay            | [Photo2](#opt2-screenshot) |
-| OPT3.v        | Boolean simplification using K-map / Quine-McCluskey | [Photo3](#opt3-screenshot) |
-| OPT4.v        | Sequential optimization and state reduction | [Photo4](#opt4-screenshot) |
-| OPT5.v        | Final optimization: area/power trade-off    | [Photo5](#opt5-screenshot) |
-| OPT_CHECK.v   | Verification of optimizations applied        | [Photo6](#optcheck-screenshot) |
+| File Name              | Screenshot                 |
+|------------------------|----------------------------|
+| opt_check.v            | [Photo1](#opt1-screenshot) |
+| opt_check2.v           | [Photo2](#opt2-screenshot) |
+| opt_check3.v           | [Photo3](#opt3-screenshot) |
+| counter_opt.v          | [Photo4](#opt4-screenshot) |
+| multiple_module_opt.v  | [Photo5](#opt5-screenshot) |
+| multiple_module_opt2.v | [Photo6](#opt6-screenshot) |
+
 
 2. D Flip-Flops
 
 Files simulated using Icarus Verilog and YoSys:
 
-| File Name   | Flip-Flop Type        | Simulation Tool         | Notes / Observations                        |
-|------------|---------------------|------------------------|--------------------------------------------|
-| DSFCONST1.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Verified async reset/set behavior          |
-| DSFCONST2.v | Asynchronous DFF    | Icarus Verilog, YoSys  | Observed waveform for glitch-free capture |
-| DSFCONST3.v | Synchronous DFF     | Icarus Verilog, YoSys  | Stable capture on clock edge               |
-| DSFCONST4.v | Synchronous DFF     | Icarus Verilog, YoSys  | Verified timing and waveform consistency  |
-
+| File Name     | Screenshot                 |
+|---------------|----------------------------|
+| dff_const.v   | [Photo1](#dff1-screenshot) |
+| dff_const2.v     | [Photo2](#dff2-screenshot) |
+| dff_const3.v      | [Photo3](#dff3-screenshot) |
+| dff_const4.v      | [Photo4](#dfft4-screenshot) |
+| dff_const5.v     | [Photo5](#dfft5-screenshot) |
+| dff_async.v     | [Photo6](#dff6-screenshot) |
 
 
 
