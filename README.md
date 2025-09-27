@@ -56,14 +56,12 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 🔹 Example Table for Lab Observations
 
-File / Module	Synthesis Type	Notes / Observations
-
-multiple_modules.v	RTL Simulation	Verified behavior with GTKWave
-submodule1.v	Single Sub-module Synth	Synthesized separately to check area/power
-hierarchy_synth.v	Hierarchical Synthesis	Compared hierarchical vs flattened design
-flattened_synth.v	Flattened Synthesis	Verified waveform & area with hierarchy
-
-
+| File / Module       | Synthesis Type          | Notes / Observations                        |
+|--------------------|------------------------|--------------------------------------------|
+| multiple_modules.v  | RTL Simulation         | Verified behavior with GTKWave             |
+| submodule1.v        | Single Sub-module Synth| Synthesized separately to check area/power|
+| hierarchy_synth.v   | Hierarchical Synthesis | Compared hierarchical vs flattened design |
+| flattened_synth.v   | Flattened Synthesis    | Verified waveform & area with hierarchy    |
 
 ---
 
