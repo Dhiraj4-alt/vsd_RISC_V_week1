@@ -1,4 +1,4 @@
-##📘 Day 1 – VLSI Lab: GoodMux Simulation & Synthesis
+## 📘 Day 1 – VLSI Lab: GoodMux Simulation & Synthesis
 
 🔹 Lab Objective
 
@@ -8,7 +8,7 @@ Perform RTL simulation using Icarus Verilog and waveform viewing in GTKWave.
 
 Synthesize the design using YoSys and map it to a standard cell library.
 
-##🔹 Pre requsites
+## 🔹 Pre requsites
 
 1. Create a file called vlsi
    ```
@@ -23,10 +23,11 @@ Synthesize the design using YoSys and map it to a standard cell library.
    ```
    cd vlsi/sky130RTLDesignAndSynthesisWorkshop/DC_WORKSHOP/verilog_files/
    ```   
-
+![photo1](
+)
 ---
 
-🔹 Step 1: RTL Simulation (Icarus Verilog + GTKWave)
+## 🔹 Step 1: RTL Simulation (Icarus Verilog + GTKWave)
 
 1. Go to the VerilogFiles directory:
 ```
@@ -50,7 +51,7 @@ gtkwave tb_good_mux.vcd
 
 ---
 
-🔹 Step 2: Synthesis (YoSys)
+## 🔹 Step 2: Synthesis (YoSys)
 
 1. Start YoSys in the same directory:
 ```
@@ -91,7 +92,7 @@ After this step, you can inspect the gate-level design and confirm the structure
 ---
 
 
-🔹 Notes
+### 🔹 Notes
 
 Make sure the testbench signals match the RTL/netlist ports.
 
