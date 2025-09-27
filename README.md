@@ -77,23 +77,23 @@ Used for evaluating expressions in sequential or combinational logic.
 
 
 Example: 32:1 MUX
-
+```bash
 always @(*) begin
     for (i=0; i<32; i=i+1) begin
         if (i == sel)
             Y = input[i];
     end
 end
-
+```
 Example: 8:1 DEMUX
-
+```bash
 always @(*) begin
     Output_bus[7:0] = 8'b0;
     for (i=0; i<8; i=i+1)
         if (i == sel)
             Output_bus[i] = input;
 end
-
+```
 
 ---
 
@@ -103,13 +103,13 @@ Used for hardware instantiation of multiple components.
 
 
 Example: Instantiating 500 AND gates
-
+```bash
 generate
     for (i=0; i<500; i=i+1) begin : u_and_block
         and u_and(.a(a[i]), .b(b[i]), .y(y[i]));
     end
 endgenerate
-
+```
 Useful for large repetitive hardware structures, like multiple ripple-carry adders.
 
 
