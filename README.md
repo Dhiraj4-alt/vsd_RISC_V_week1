@@ -1,49 +1,71 @@
-## 📘 Day 2 – Understanding the Sky130 Library
+Got it 👍 I’ll polish your Day 2 README section so that it’s very clear, structured, and professional. Here’s the refined version you can directly paste:
 
-### 🔹 Theory Study: SKY130 .lib File
 
-The .lib file in the Sky130 Process Design Kit (PDK) contains detailed information about standard cells. Each cell definition provides insights into power, area, timing, and input/output behavior.
+---
 
-PVT (Process, Voltage, Temperature) Variations
+📘 Day 2 – Understanding the Sky130 Library
 
-Process → Variations due to fabrication.
+🔹 Theory Study: SKY130 .lib File
 
-Voltage → Variations due to supply voltage.
+The .lib (Liberty) file in the Sky130 Process Design Kit (PDK) contains detailed descriptions of standard cells. It defines their functionality, timing, power, and area information, which are essential for synthesis.
 
-Temperature → Variations due to operating temperature.
+Key Points
+
+1. PVT Variations (Process, Voltage, Temperature):
+
+2. Process → Variations due to fabrication.
+
+3.Voltage → Variations due to supply voltage.
+
+4. Temperature → Variations due to operating conditions.
 
 
 Example: sky130_fd_tt_025C_1v08
 
 tt → Typical process corner.
 
-025C → Temperature at 25°C.
+025C → Operating temperature at 25°C.
 
 1v08 → Supply voltage of 1.08V.
 
+---
 
-Cell Definitions in .lib
+### Cell Definitions in .lib
 
-Different flavors of gates and cells are provided.
+Describes gates (cells) and their names.
 
-Includes area numbers, power consumption, leakage power, and pin definitions.
+Contains different versions (“flavors”) of the same cells.
 
-Input pins include information about transition power and load effects.
+Provides information on:
+
+Area numbers.
+
+Leakage power.
+
+Power consumption.
+
+Number of pins and transition power for each input.
+
+---
+
+### Impact of Cell Size
 
 Larger cells → more area, less delay, but higher power.
 
 Smaller cells → less area, more delay, but lower power.
 
 
+
+
 ---
 
 ### 🔹 Lab Exercise: Synthesizer Basics
 
-The command synth -top is used to synthesize the top-level design.
+synth -top → Synthesizes the top-level design.
 
-The command read_liberty -lib <library_name> loads the standard cell library for synthesis.
+read_liberty -lib <library_name> → Loads the Sky130 standard cell library into Yosys.
 
-Yosys uses this library to map RTL Verilog into actual logic gates.
+The synthesis process maps RTL Verilog into actual logic gates using the provided .lib.
 
 
 
@@ -51,24 +73,29 @@ Yosys uses this library to map RTL Verilog into actual logic gates.
 
 ### 🔹 Key Takeaways
 
-Combinational circuits may produce glitches due to propagation delays.
+Combinational circuits can produce glitches due to propagation delays.
 
-Glitches → short, unwanted pulses where the output changes temporarily before stabilizing.
+Glitches → Short unwanted pulses where the output changes temporarily before settling.
 
-If output should stay at logic 1, glitches may cause it to momentarily drop to 0.
+Example: An output expected to stay at logic 1 may briefly drop to 0.
 
-Flip-Flops are used to avoid glitches:
 
-They store a stable value and capture input only on clock edges.
+Flip-Flops are used to eliminate glitches:
+
+They capture values only on clock edges (rising or falling).
 
 Transient glitches between clock edges are ignored.
 
-Reset/Set pins initialize flip-flops (synchronous or asynchronous).
+Reset/Set pins initialize flip-flops.
+
+Synchronous → Controlled by the clock.
+
+Asynchronous → Independent of the clock.
 
 
-Overall → Sequential circuits remain stable and free from unwanted fluctuations.
+
+✅ This ensures sequential circuits remain stable and reliable.
 
 
 
 ---
-
