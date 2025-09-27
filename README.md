@@ -95,7 +95,7 @@ Files simulated using Icarus Verilog and YoSys:
 | dff_const4.v      | [Photo4](#dfft4-screenshot) |
 | dff_const5.v     | [Photo5](#dfft5-screenshot) |
 | dff_async.v     | [Photo6](#dff6-screenshot) |
-
+|dff_async.v     | [Photo7](#dff7-screenshot) |
 
 
 ---
@@ -156,6 +156,10 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 ![ Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-18-26.png)
 ![output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-17-47.png)
 
-#### dff6 Screenshot
+#### dff_async Screenshot
 <a name="dff6-screenshot"></a>
-![OPT_CHECK YoSys Output](screenshots/O)
+![OPT_CHECK YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-23_21-48-57.png)
+
+#### dff_async Screenshot
+<a name="dff7-screenshot"></a>
+![OPT_CHECK]()
