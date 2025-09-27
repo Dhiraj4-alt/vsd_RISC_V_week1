@@ -4,7 +4,7 @@
 ### 🔹 If Statements
 
 Syntax
-bash```
+```
 if (<condition>) begin
     ...
 end else if (<condition2>) begin
@@ -33,7 +33,8 @@ Can be used intentionally in designs like counters where the value should be ret
 🔹 Case Statements
 
 Syntax
-bash```
+
+```bash
 case (condition)
     2'b00: ...
     2'b01: ...
