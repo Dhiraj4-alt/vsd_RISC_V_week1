@@ -48,7 +48,15 @@ iverilog good_mux.v tb_good_mux.v
 ```
 gtkwave tb_good_mux.vcd
 ```
-
+![photo2]()
+``
+![photo3]()
+``
+![photo4]()
+``
+![photo5]()
+``
+![photo6]()
 ---
 
 ## 🔹 Step 2: Synthesis (YoSys)
@@ -65,10 +73,14 @@ read_liberty -lib /home/dhiraj/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky1
 read_verilog good_mux.v
 
 ```
+
 3. Run synthesis (specify top module):
 ```
 synth -top good_mux
+
 ```
+it shows the elemsths like wires flipflops registers gates etc...
+
 4. Map synthesized design to library:
 if its a flip flop file
 ```
@@ -87,7 +99,8 @@ show
 ```
 After this step, you can inspect the gate-level design and confirm the structure matches expectations.
 
-
+``
+![photo7]()
 
 ---
 
