@@ -1,13 +1,13 @@
-📘 Day 3 – Logic Optimization Techniques
+## 📘 Day 3 – Logic Optimization Techniques
 
-🔹 Introduction
+###🔹 Introduction
 
 The goal of logic optimization is to design circuits that consume less area and power, while maintaining correct functionality. Optimized circuits use fewer transistors, require less silicon area, and reduce overall power consumption.
 
 
 ---
 
-🔹 Types of Logic Optimization
+### 🔹 Types of Logic Optimization
 
 1. Constant Optimization
 
@@ -27,9 +27,9 @@ If one input of an AND gate is permanently grounded (0), the output is always 0.
 
 * Uses Boolean algebra techniques such as:
 
-* Karnaugh Maps (K-Maps).
+ Karnaugh Maps (K-Maps).
 
-* Quine–McCluskey method.
+ Quine–McCluskey method.
 
 
 These methods reduce the number of logic gates required by minimizing Boolean expressions.
@@ -40,7 +40,7 @@ Results in fewer gates → less area, lower power, and reduced delay.
 
 ---
 
-🔹 Sequential Logic Optimization
+### 🔹 Sequential Logic Optimization
 
 In addition to combinational logic optimization, sequential circuits (those with flip-flops and memory elements) can also be optimized. Techniques include:
 
@@ -73,7 +73,7 @@ In addition to combinational logic optimization, sequential circuits (those with
 
 ---
 
-🔹 Key Takeaways
+### 🔹 Key Takeaways
 
 * Optimized designs → smaller area, lower power, faster performance.
 
