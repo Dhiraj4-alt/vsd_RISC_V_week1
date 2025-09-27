@@ -106,3 +106,52 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 
 ---
 
+### Screenshots
+
+#### OPT1 Screenshot
+<a name="opt1-screenshot"></a>
+![OPT1 YoSys Output](screenshots/OPT1_synth.png)
+
+#### OPT2 Screenshot
+<a name="opt2-screenshot"></a>
+![OPT2 YoSys Output](screenshots/OPT2_synth.png)
+
+#### OPT3 Screenshot
+<a name="opt3-screenshot"></a>
+![OPT3 YoSys Output](screenshots/OPT3_synth.png)
+
+#### OPT4 Screenshot
+<a name="opt4-screenshot"></a>
+![OPT4 YoSys Output](screenshots/OPT4_synth.png)
+
+#### OPT5 Screenshot
+<a name="opt5-screenshot"></a>
+![OPT5 YoSys Output](screenshots/OPT5_synth.png)
+
+#### OPT_CHECK Screenshot
+<a name="optcheck-screenshot"></a>
+![OPT_CHECK YoSys Output](screenshots/OPT_CHECK_synth.png)### Screenshots
+
+#### OPT1 Screenshot
+<a name="opt1-screenshot"></a>
+![OPT1 YoSys Output](screenshots/OPT1_synth.png)
+
+#### OPT2 Screenshot
+<a name="opt2-screenshot"></a>
+![OPT2 YoSys Output](screenshots/OPT2_synth.png)
+
+#### OPT3 Screenshot
+<a name="opt3-screenshot"></a>
+![OPT3 YoSys Output](screenshots/OPT3_synth.png)
+
+#### OPT4 Screenshot
+<a name="opt4-screenshot"></a>
+![OPT4 YoSys Output](screenshots/OPT4_synth.png)
+
+#### OPT5 Screenshot
+<a name="opt5-screenshot"></a>
+![OPT5 YoSys Output](screenshots/OPT5_synth.png)
+
+#### OPT_CHECK Screenshot
+<a name="optcheck-screenshot"></a>
+![OPT_CHECK YoSys Output](screenshots/OPT_CHECK_synth.png)
