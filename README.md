@@ -110,7 +110,7 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 
 #### OPT1 Screenshot
 <a name="opt1-screenshot"></a>
-![OPT1 YoSys Output](screenshots/OPT1_synth.png)
+![OPT1 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_17-51-33.png)
 
 #### OPT2 Screenshot
 <a name="opt2-screenshot"></a>
