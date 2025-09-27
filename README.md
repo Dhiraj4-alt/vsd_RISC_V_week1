@@ -4,7 +4,7 @@
 ### 🔹 If Statements
 
 Syntax
-```
+```bash
 if (<condition>) begin
     ...
 end else if (<condition2>) begin
