@@ -56,7 +56,7 @@ gtkwave tb_good_mux.vcd
 ``
 ![photo5]()
 ``
-![photo6]()
+![photo6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/6e12b1957da53c83b52c2b19cf23b540a63b3b97/Screenshot_2025-09-21_19-58-18.png)
 ---
 
 ## 🔹 Step 2: Synthesis (YoSys)
