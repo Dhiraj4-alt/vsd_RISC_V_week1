@@ -1,6 +1,6 @@
-📘 Day 3 – D Flip-Flop & Optimization Study
+## 📘 Day 3 – D Flip-Flop & Optimization Study
 
-🔹 Topics Covered
+### 🔹 Topics Covered
 
 1. Asynchronous D Flip-Flop
 
@@ -17,7 +17,7 @@ Ensures stable sequential behavior and avoids glitches between clock transitions
 
 ---
 
-🔹 Files Executed
+### 🔹 Files Executed
 
 1️⃣ D Flip-Flops
 
@@ -50,10 +50,10 @@ File Name	Purpose / Observation
 
 ---
 
-🔹 Simulation & Synthesis Flow
+### 🔹 Simulation & Synthesis Flow
 
 1️⃣ Icarus Verilog (RTL Simulation)
-
+```
 # Step 1: Compile design and testbench
 iverilog <design_file>.v <testbench_file>.v -o <output_executable>
 
@@ -91,7 +91,7 @@ write_verilog -noattr <output_netlist>.v
 
 # Show design in YoSys GUI
 show
-
+```
 
 ---
 
