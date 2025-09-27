@@ -1,10 +1,7 @@
-# vsd_RISC_V_week1 Day 1
----
-
-## Day 1 – Simulation and Synthesis Notes
+## 📘Day 1 – Simulation and Synthesis Notes
 
 
-### 1. Simulator
+### 🔹️ Simulator
 
 Purpose: To check if the design adheres to the given specifications.
 
@@ -20,13 +17,13 @@ Tool Used: iverilog
 
 ---
 
-### 2. Design
+### 🔹️ Design
 
 A set of Verilog codes written to meet the required specifications.
 
 ---
 
-### 3. Testbench
+### 🔹️ Testbench
 
 Ensures that the design obeys the specifications.
 
@@ -36,7 +33,7 @@ No direct inputs or outputs are assigned to testbenches.
 
 ---
 
-### 4. Simulation Flow
+### 🔹️Simulation Flow
 
 Design + Testbench ──▶ iverilog ──▶ VCD (Value Change Dump) file ──▶ GTKWave
 
@@ -48,7 +45,7 @@ gtkwave → used to view waveforms.
 
 ---
 
-### 5. Synthesizer
+### 🔹️ Synthesizer
 
 Purpose: Converts RTL description into a netlist.
 Tool Used: yosys
@@ -63,7 +60,7 @@ Rich enough to implement required logical functions.
 
 ---
 
-### 6. Verification of Synthesis Output
+### 🔹️ Verification of Synthesis Output
 
 Netlist + Testbench ──▶ iverilog ──▶ VCD ──▶ GTKWave
 
@@ -73,7 +70,7 @@ Confirms correctness after synthesis.
 
 ---
 
-### 7. RTL Design
+### 🔹️ RTL Design
 
 Behavioral representation of required specifications written in Verilog.
 
@@ -81,7 +78,7 @@ Converting RTL to gate-level logic is called Synthesis.
 
 ---
 
-### 8. Why Many Different Gates (Library Cells)?
+### 🔹️ Why Many Different Gates (Library Cells)?
 
 Example Block
 
