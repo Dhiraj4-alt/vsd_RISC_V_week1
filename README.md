@@ -20,7 +20,7 @@ Ensures stable sequential behavior and avoids glitches between clock transitions
 1️⃣ Icarus Verilog (RTL Simulation)
 ```
 # Step 1: Compile design and testbench
-iverilog <design_file>.v <testbench_file>.v -o <output_executable>
+iverilog <design_file>.v <testbenchfile>.v
 
 # Step 2: Run simulation to generate VCD waveform
 ./<output_executable>
