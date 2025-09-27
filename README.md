@@ -52,8 +52,6 @@ gtkwave tb_good_mux.vcd
 
 ![photo3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/643e411ffd3b8767bacff9a1af4d856121ecde7c/Screenshot_2025-09-21_20-13-23.png)
 
-![photo4]()
-
 ![photo5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/4e02144fdc4bc1331fe9252d8415ed5bca66b87c/Screenshot_2025-09-20_11-47-25_1.png)
 
 ![photo6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/6e12b1957da53c83b52c2b19cf23b540a63b3b97/Screenshot_2025-09-21_19-58-18.png)
@@ -101,7 +99,7 @@ After this step, you can inspect the gate-level design and confirm the structure
 
 
 ![photo7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/80e8a7d18e193100302495cd9471cc7eac3f83d5/Screenshot_2025-09-22_17-43-47.png)
-``
+
 ---
 
 
