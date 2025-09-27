@@ -37,5 +37,7 @@ During Week 1, I worked extensively on Verilog RTL design, synthesis, and optimi
 
 -----
 
-#### Author - [Dhiraj Sharma M S]()
+#### Author - 
+
+[Dhiraj Sharma M S](https://github.com/Dhiraj4-alt)
   
