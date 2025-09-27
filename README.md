@@ -1,6 +1,6 @@
-📘 VLSI Lab -Hierarchical vs Falatten work flow
+## 📘 VLSI Lab -Hierarchical vs Falatten work flow
 
-🔹 YoSys Synthesis and Netlist Generation
+### 🔹 YoSys Synthesis and Netlist Generation
 
 Below is a generalized YoSys script for synthesizing any RTL design and generating a clean gate-level netlist:
 you can also refer the [day_1]() for detailed work flow 
@@ -34,7 +34,7 @@ show
 
 ---
 
-🔹 Notes on Important Commands
+### 🔹 Notes on Important Commands
 
 write_verilog -noattr:
 
@@ -54,14 +54,21 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 ---
 
-🔹 Example Table for Lab Observations
+### 🔹 Table for Lab Observations
 
 | File / Module       | Synthesis Type          | Notes / Observations                        |
 |--------------------|------------------------|--------------------------------------------|
-| multiple_modules.v  | RTL Simulation         | Verified behavior with GTKWave             |
-| submodule1.v        | Single Sub-module Synth| Synthesized separately to check area/power|
-| hierarchy_synth.v   | Hierarchical Synthesis | Compared hierarchical vs flattened design |
-| flattened_synth.v   | Flattened Synthesis    | Verified waveform & area with hierarchy    |
+| multiple_modules.v  | RTL Simulation         | Verified with Yosys                       |
+| submodule1.v        | Single Sub-module Synth| Synthesized saperatly only 1 module out of whole design|
+| multiple_modules_.v   | Hierarchical Synthesis | Compared hierarchical vs flattened design |
+
+![photo1]()
+![photo2]()
+![photo3]()
+![photo4]()
+![photo5]()
+![photo6]()
+
 
 ---
 
