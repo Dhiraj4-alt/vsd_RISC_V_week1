@@ -73,14 +73,13 @@ These files demonstrate logic optimization techniques in YoSys.
 
 File Name	Purpose / Observation
 
-| File Name     | Purpose / Observation                         |
-|--------------|-----------------------------------------------|
-| OPT1.v        | Basic logic optimization applied              |
-| OPT2.v        | Further reduction of area & delay            |
-| OPT3.v        | Boolean simplification using K-map / Quine-McCluskey |
-| OPT4.v        | Sequential optimization and state reduction |
-| OPT5.v        | Final optimization: area/power trade-off    |
-| OPT_CHECK.v   | Verification of optimizations applied        |
+| File Name     |                        | Screenshot ||------------|---------------|
+| OPT1.v        | [Photo1](#opt1-screenshot) |
+| OPT2.v        | Further reduction of area & delay            | [Photo2](#opt2-screenshot) |
+| OPT3.v        | Boolean simplification using K-map / Quine-McCluskey | [Photo3](#opt3-screenshot) |
+| OPT4.v        | Sequential optimization and state reduction | [Photo4](#opt4-screenshot) |
+| OPT5.v        | Final optimization: area/power trade-off    | [Photo5](#opt5-screenshot) |
+| OPT_CHECK.v   | Verification of optimizations applied        | [Photo6](#optcheck-screenshot) |
 
 2. D Flip-Flops
 
