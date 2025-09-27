@@ -1,8 +1,3 @@
-Perfect 👍 Thanks for sharing your Day 3 notes. I’ll clean them up into a professional, structured README format so you can paste it directly into your repo.
-
-
----
-
 📘 Day 3 – Logic Optimization Techniques
 
 🔹 Introduction
