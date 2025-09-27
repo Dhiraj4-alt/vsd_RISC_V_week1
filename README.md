@@ -1,11 +1,7 @@
-Got it 👍 I’ll polish your Day 2 README section so that it’s very clear, structured, and professional. Here’s the refined version you can directly paste:
 
+## 📘 Day 2 – Understanding the Sky130 Library
 
----
-
-📘 Day 2 – Understanding the Sky130 Library
-
-🔹 Theory Study: SKY130 .lib File
+### 🔹 Theory Study: SKY130 .lib File
 
 The .lib (Liberty) file in the Sky130 Process Design Kit (PDK) contains detailed descriptions of standard cells. It defines their functionality, timing, power, and area information, which are essential for synthesis.
 
@@ -30,7 +26,7 @@ tt → Typical process corner.
 
 ---
 
-### Cell Definitions in .lib
+### 🔹️ Cell Definitions in .lib
 
   Describes gates (cells) and their names.
 
@@ -48,7 +44,7 @@ tt → Typical process corner.
 
 ---
 
-### Impact of Cell Size
+### 🔹️ Impact of Cell Size
 
 Larger cells → more area, less delay, but higher power.
 
