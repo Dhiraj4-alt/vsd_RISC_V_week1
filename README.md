@@ -49,15 +49,15 @@ iverilog good_mux.v tb_good_mux.v
 gtkwave tb_good_mux.vcd
 ```
 ![photo2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/5867a070a6850ff9883c05ac4719cfc006c3d29d/Screenshot_2025-09-22_17-44-23.png)
-``
-![photo3]()
-``
+
+![photo3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/643e411ffd3b8767bacff9a1af4d856121ecde7c/Screenshot_2025-09-21_20-13-23.png)
+
 ![photo4]()
-``
+
 ![photo5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/4e02144fdc4bc1331fe9252d8415ed5bca66b87c/Screenshot_2025-09-20_11-47-25_1.png)
-``
+
 ![photo6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/6e12b1957da53c83b52c2b19cf23b540a63b3b97/Screenshot_2025-09-21_19-58-18.png)
----
+
 
 ## 🔹 Step 2: Synthesis (YoSys)
 
