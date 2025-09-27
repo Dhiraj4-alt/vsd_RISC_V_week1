@@ -54,7 +54,7 @@ gtkwave tb_good_mux.vcd
 ``
 ![photo4]()
 ``
-![photo5]()
+![photo5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/4e02144fdc4bc1331fe9252d8415ed5bca66b87c/Screenshot_2025-09-20_11-47-25_1.png)
 ``
 ![photo6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/6e12b1957da53c83b52c2b19cf23b540a63b3b97/Screenshot_2025-09-21_19-58-18.png)
 ---
