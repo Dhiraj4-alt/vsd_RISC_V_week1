@@ -48,7 +48,7 @@ iverilog good_mux.v tb_good_mux.v
 ```
 gtkwave tb_good_mux.vcd
 ```
-![photo2]()
+![photo2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/5867a070a6850ff9883c05ac4719cfc006c3d29d/Screenshot_2025-09-22_17-44-23.png)
 ``
 ![photo3]()
 ``
