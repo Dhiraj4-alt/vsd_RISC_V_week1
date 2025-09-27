@@ -62,9 +62,9 @@ iverilog <design_file>.v <testbench_file>.v -o <output_executable>
 
 # Step 3: View waveform in GTKWave
 gtkwave <output_file>.vcd
-
+```
 2️⃣ YoSys (Synthesis & Optimization)
-
+```
 # Start YoSys
 yosys
 
