@@ -23,7 +23,7 @@ Synthesize the design using YoSys and map it to a standard cell library.
    ```
    cd vlsi/sky130RTLDesignAndSynthesisWorkshop/DC_WORKSHOP/verilog_files/
    ```   
-![photo1](
+![photo1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/3a8fd6200c6ae98af0f54ad0f49e7e439e79f496/day%201%20photo%201.png
 )
 ---
 
