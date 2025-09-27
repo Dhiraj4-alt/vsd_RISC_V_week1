@@ -15,6 +15,53 @@ Captures input only on the clock edge.
 Ensures stable sequential behavior and avoids glitches between clock transitions.
 
 
+### 🔹 Simulation & Synthesis Flow
+
+1️⃣ Icarus Verilog (RTL Simulation)
+```
+# Step 1: Compile design and testbench
+iverilog <design_file>.v <testbench_file>.v -o <output_executable>
+
+# Step 2: Run simulation to generate VCD waveform
+./<output_executable>
+
+# Step 3: View waveform in GTKWave
+gtkwave <output_file>.vcd
+```
+2️⃣ YoSys (Synthesis & Optimization)
+```
+# Start YoSys
+yosys
+
+# Read library
+read_liberty -lib <library_file>.lib
+
+# Read design
+read_verilog <design_file>.v
+
+# Synthesize top module
+synth -top <top_module_name>
+
+# Opt clean 
+opt_clean -purge
+
+# Map to library and optimize
+abc -liberty <library_file>.lib
+
+# Insert DFFs (if required)
+dfflibmap -liberty <library_file>.lib
+
+# Flatten hierarchy (optional)
+flatten
+
+# Write final netlist(for netlist genertaion )
+write_verilog -noattr <output_netlist>.v
+
+# Show design in YoSys GUI
+show
+```
+
+
 ---
 
 ### 🔹 Files Executed
@@ -50,48 +97,6 @@ File Name	Purpose / Observation
 
 ---
 
-### 🔹 Simulation & Synthesis Flow
-
-1️⃣ Icarus Verilog (RTL Simulation)
-```
-# Step 1: Compile design and testbench
-iverilog <design_file>.v <testbench_file>.v -o <output_executable>
-
-# Step 2: Run simulation to generate VCD waveform
-./<output_executable>
-
-# Step 3: View waveform in GTKWave
-gtkwave <output_file>.vcd
-```
-2️⃣ YoSys (Synthesis & Optimization)
-```
-# Start YoSys
-yosys
-
-# Read library
-read_liberty -lib <library_file>.lib
-
-# Read design
-read_verilog <design_file>.v
-
-# Synthesize top module
-synth -top <top_module_name>
-
-# Map to library and optimize
-abc -liberty <library_file>.lib
-
-# Insert DFFs (if required)
-dfflibmap -liberty <library_file>.lib
-
-# Flatten hierarchy (optional)
-flatten
-
-# Write final netlist
-write_verilog -noattr <output_netlist>.v
-
-# Show design in YoSys GUI
-show
-```
 
 ---
 
