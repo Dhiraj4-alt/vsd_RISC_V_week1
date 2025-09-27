@@ -143,7 +143,7 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 #### dff3 Screenshot
 <a name="dff3-screenshot"></a>
 ![OPT3 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-09-32.png)
-![https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-05-48.png]()
+![out](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-05-48.png)
 
 #### dff_const4 Screenshot
 <a name="dff4-screenshot"></a>
