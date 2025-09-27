@@ -15,7 +15,7 @@ Key Points
 
 2. Process → Variations due to fabrication.
 
-3.Voltage → Variations due to supply voltage.
+3. Voltage → Variations due to supply voltage.
 
 4. Temperature → Variations due to operating conditions.
 
@@ -32,19 +32,19 @@ tt → Typical process corner.
 
 ### Cell Definitions in .lib
 
-Describes gates (cells) and their names.
+  Describes gates (cells) and their names.
 
-Contains different versions (“flavors”) of the same cells.
+  Contains different versions (“flavors”) of the same cells.
 
-Provides information on:
+  Provides information on:
 
-Area numbers.
+  Area numbers.
 
-Leakage power.
+  Leakage power.
 
-Power consumption.
+  Power consumption.
 
-Number of pins and transition power for each input.
+  Number of pins and transition power for each input.
 
 ---
 
