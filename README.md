@@ -151,6 +151,7 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 #### dfft_5 
 <a name="dfft5-screenshot"></a>
 ![ Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-18-26.png)
+![output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-17-47.png)
 
 #### dff6 Screenshot
 <a name="dff6-screenshot"></a>
