@@ -31,7 +31,8 @@ Make sure these tools are installed and working before proceeding, as they are e
 - [Lab5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/tree/day5_Labs) - Labs on Optimization techniques
 
 
-📝Learnings
+## 📝Learnings
+
 
 During Week 1, I worked extensively on Verilog RTL design, synthesis, and optimization, covering topics from basic RTL coding, timing libraries, hierarchical vs flat synthesis, to combinational and sequential optimizations, GLS, and blocking vs non-blocking statements. I simulated over 70-90 files using Icarus Verilog, GTKWave, YoSys, and Sky130 PDK. This hands-on experience helped me gain strong practical skills and familiarity with key VLSI design and verification tools, boosting both my confidence and understanding of real-world hardware design workflows. It also makes me even🚀 more enthusiastic to build a career in the VLSI industry.
 
