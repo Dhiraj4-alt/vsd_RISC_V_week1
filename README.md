@@ -1,6 +1,6 @@
 ## 📘 Day 3 – Logic Optimization Techniques
 
-###🔹 Introduction
+### 🔹 Introduction
 
 The goal of logic optimization is to design circuits that consume less area and power, while maintaining correct functionality. Optimized circuits use fewer transistors, require less silicon area, and reduce overall power consumption.
 
@@ -8,6 +8,7 @@ The goal of logic optimization is to design circuits that consume less area and 
 ---
 
 ### 🔹 Types of Logic Optimization
+
 
 1. Constant Optimization
 
@@ -42,6 +43,7 @@ Results in fewer gates → less area, lower power, and reduced delay.
 
 ### 🔹 Sequential Logic Optimization
 
+
 In addition to combinational logic optimization, sequential circuits (those with flip-flops and memory elements) can also be optimized. Techniques include:
 
 1. Sequential Constant Propagation
@@ -74,6 +76,7 @@ In addition to combinational logic optimization, sequential circuits (those with
 ---
 
 ### 🔹 Key Takeaways
+
 
 * Optimized designs → smaller area, lower power, faster performance.
 
