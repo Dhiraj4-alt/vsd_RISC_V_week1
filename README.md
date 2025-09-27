@@ -8,74 +8,88 @@ Perform RTL simulation using Icarus Verilog and waveform viewing in GTKWave.
 
 Synthesize the design using YoSys and map it to a standard cell library.
 
+##🔹 Pre requsites
 
+1. Create a file called vlsi
+   ```
+   mkdir vlsi
+   ```
+2. git clone this repository
+   ```
+   git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop/tree/eb29a38c8125be9020b3577dfeabbe6843bca1fa/my_lib/verilog_model
+   
+   ```
+3. U can check the files
+   ```
+   cd vlsi/sky130RTLDesignAndSynthesisWorkshop/DC_WORKSHOP/verilog_files/
+   ```   
 
 ---
 
 🔹 Step 1: RTL Simulation (Icarus Verilog + GTKWave)
 
 1. Go to the VerilogFiles directory:
-'''
-cd VerilogFile
+```
+cd vlsi/sky130RTLDesignAndSynthesisWorkshop/DC_WORKSHOP/verilog_files/
+
+```
 2. Compile RTL and testbench:
-
-
-
-iverilog GoodMux.v GoodMux_tb.v
+```
+iverilog good_mux.v tb_good_mux.v
+```
 
 3. Run the simulation (generates a.out):
-
-
-
+```
 ./a.out
+```
 
 4. Open the generated VCD waveform in GTKWave:
-
-
-
-gtkwave GoodMux.vcd
-
+```
+gtkwave tb_good_mux.vcd
+```
 
 ---
 
 🔹 Step 2: Synthesis (YoSys)
 
 1. Start YoSys in the same directory:
-
-
-
+```
 yosys
+```
 
 2. Read library and RTL files:
+```
+read_liberty -lib /home/dhiraj/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
+read_verilog good_mux.v
 
-
-read_liberty your_library.lib
-read_verilog GoodMux.v
-
+```
 3. Run synthesis (specify top module):
-
-
-
-synth -top GoodMux
-
+```
+synth -top good_mux
+```
 4. Map synthesized design to library:
+if its a flip flop file
+```
+dfflibmap -liberty /home/dhiraj/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
+abc -liberty /home/dhiraj/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
+```
+```
+abc -liberty /home/dhiraj/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
-abc -liberty your_library.lib
-
+```
 5. Visualize the synthesized netlist:
-
-
-
+```
 show
-
+```
 After this step, you can inspect the gate-level design and confirm the structure matches expectations.
 
 
 
 ---
+
 
 🔹 Notes
 
@@ -88,8 +102,3 @@ Screenshots and observations can be stored in a Screenshots/ folder for document
 
 
 ---
-
-If you want, I can also make a “Day 1 Labs” section for your main README with direct links to files, screenshots, and branches, so your repo looks fully professional and navigable.
-
-Do you want me to create that next?
-
