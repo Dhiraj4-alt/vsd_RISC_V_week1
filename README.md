@@ -117,51 +117,51 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 ![OPT2 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_17-57-25.png)
 )
 
-#### OPT3 Screenshot
+#### opt_check3.v
 <a name="opt3-screenshot"></a>
 ![OPT3 YoSys](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-14-02.png)
 
-#### OPT4 Screenshot
+#### counter_opt.v
 <a name="opt4-screenshot"></a>
-![OPT4 YoSys Output](
+![OPT4 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/4b048a5878813973f9f3ecc592a8f2bc878e5774/Screenshot_2025-09-27_10-41-41.png)
 
 
-#### multiple_module_opt check
+#### multiple_module_opt.v check
 <a name="opt5-screenshot"></a>
 ![OPT5 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-19-18.png)
 
-#### OPT6 Screenshot
+#### multiple_module_opt2.v Screenshot
 <a name="opt6-screenshot"></a>
 ![OPT_CHECK YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-21-13.png)
 
-#### dff1 Screenshot
+#### dff_const.v
 <a name="dff1-screenshot"></a>
 ![OPT1 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-45-32.png)
 
-#### dff2 Screenshot
+#### dff_const2.v
 <a name="dff2-screenshot"></a>
 ![OPT2 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-47-36.png)
 
-#### dff3 Screenshot
+#### dff_const3.v
 <a name="dff3-screenshot"></a>
 ![OPT3 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-09-32.png)
 ![out](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-05-48.png)
 
-#### dff_const4 Screenshot
+#### dff_const4.v
 <a name="dff4-screenshot"></a>
 ![OPT4 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-13-31.png)
 
 ![out](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-13-00.png)
 
-#### dfft_5 
+#### dff_const5.v
 <a name="dfft5-screenshot"></a>
 ![ Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-18-26.png)
 ![output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_19-17-47.png)
 
-#### dff_async Screenshot
+#### dff_async.v
 <a name="dff6-screenshot"></a>
 ![OPT_CHECK YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-23_21-48-57.png)
 
-#### dff_async Screenshot
+#### dff_async_set.v
 <a name="dff7-screenshot"></a>
 ![OPT_CHECK](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-23_21-54-22.png)
