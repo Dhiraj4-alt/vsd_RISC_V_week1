@@ -6,12 +6,12 @@
 |---------------------------------------------|------------|
 | incomp_case.v                            | [Photo 1](#photo-1) |
 | incomp_case.v (Yosys Block Diagram)      | [Photo 2](#photo-2) |
-| incomplete_if_case.v (GTKWave)            | [Photo 3](#photo-3) |
-| incompletecaseif.v (Yosys)                  | [Photo 4](#photo-4) |
-| incompletecaseif2.v (GTKWave)               | [Photo 5](#photo-5) |
-| incompletewaveif2.v (Yosys)                 | [Photo 6](#photo-6) |
-| complete__case (GTKWave)                    | [Photo 7](#photo-7) |
-| complete__case (Yosys)                      | [Photo 8](#photo-8) |
+| incomp_if_case.v (GTKWave)            | [Photo 3](#photo-3) |
+| incomp_if.v (Yosys)                  | [Photo 4](#photo-4) |
+| incomp_if2.v (GTKWave)               | [Photo 5](#photo-5) |
+| incomp_if2.v (Yosys)                 | [Photo 6](#photo-6) |
+| complete_case (GTKWave)                    | [Photo 7](#photo-7) |
+| complete_case (Yosys)                      | [Photo 8](#photo-8) |
 | partial__case__assign (Yosys)               | [Photo 9](#photo-9) |
 | badcase.v + testbenchofbadcase.v            | [Photo 10](#photo-10) |
 | badcase (Yosys Block Diagram)               | [Photo 11](#photo-11) |
@@ -47,7 +47,7 @@
 ![Photo 7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-01-50.png)
 
 ### Photo 8
-![Photo 8]https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-03-38.png)
+![Photo 8](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-03-38.png)
 
 ### Photo 9
 ![Photo 9](photo9.png)
