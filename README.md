@@ -30,7 +30,7 @@ Can be used intentionally in designs like counters where the value should be ret
 
 ---
 
-🔹 Case Statements
+## 🔹 Case Statements
 
 Syntax
 
@@ -69,7 +69,7 @@ Avoid having the same case conditions in multiple branches, as this may create a
 
 ---
 
-🔹 Loops in Verilog
+## 🔹 Loops in Verilog
 
 1. for loop inside always block
 
@@ -116,17 +116,17 @@ Useful for large repetitive hardware structures, like multiple ripple-carry adde
 
 ---
 
-🔹 Key Takeaways
+### 🔹 Key Takeaways
 
-Use else statements and default cases to avoid inferred latches.
+* Use else statements and default cases to avoid inferred latches.
 
-Blocking (=) vs Non-blocking (<=) assignments are critical for correct sequential behavior.
+* Blocking (=) vs Non-blocking (<=) assignments are critical for correct sequential behavior.
 
-For loops inside always are for logic evaluation.
+* For loops inside always are for logic evaluation.
 
-Generate loops outside always are for hardware instantiation.
+* Generate loops outside always are for hardware instantiation.
 
-Efficient coding ensures smaller area, less power, and predictable hardware behavior.
+* Efficient coding ensures smaller area, less power, and predictable hardware behavior.
 
 
 
