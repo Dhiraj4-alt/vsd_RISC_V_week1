@@ -9,7 +9,7 @@
 | ternary_operator_mux_net.v      | [Photo 2](#photo-2) |
 | bad_mux.v                  | [Photo 3](#photo-3) |
 | blocking_caveat.v          | [Photo 4](#photo-4) |
-| BlockingCaveat Synth vs Non-Synth | [Photo 5](#photo-5) |
+|blockin_caveat.v comparision| [Photo 5](#photo-5) |
 | YoASIS Block Diagram (ternary_operator_mux.v) | [Photo 6](#photo-6) |
 
 ---
