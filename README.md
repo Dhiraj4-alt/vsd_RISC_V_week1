@@ -59,7 +59,7 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 | submodule1.v(Yosys)         | Single Sub-module Synth| Photo3()Photo4()|
 | multiple_modules_.v         | Hierarchical Synthesis | Photo5()Photo6()|
 
-![photo1]()
+![photo1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-31-42.png)
 ![photo2]()
 ![photo3]()
 ![photo4](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-47-25.png)
