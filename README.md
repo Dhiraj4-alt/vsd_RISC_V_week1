@@ -22,7 +22,7 @@
 ![Photo 1]()
 
 ### Photo 2
-![Photo 2](photo2.png)
+![Photo 2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_11-22-33.png)
 
 ### Photo 3
 ![Photo 3](photo3.png)
