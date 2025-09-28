@@ -53,11 +53,11 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 ### 🔹 Table for Lab Observations
 
-| File / Module       | Synthesis Type          | Notes / Observations                        |
-|--------------------|------------------------|--------------------------------------------|
-| multiple_modules.v  | RTL Simulation         | Verified with Yosys                       |
-| submodule1.v        | Single Sub-module Synth| Synthesized saperatly only 1 module out of whole design|
-| multiple_modules_.v   | Hierarchical Synthesis | Compared hierarchical vs flattened design |
+| File / Module               | Synthesis Type         | Photos          |
+|-----------------------------|------------------------|-----------------|
+| multiple_modules.v(Yosys)   | RTL Simulation         | Photo1()Photo2()|
+| submodule1.v(Yosys)         | Single Sub-module Synth| Photo3()Photo4()|
+| multiple_modules_.v         | Hierarchical Synthesis | Photo5()Photo6()|
 
 ![photo1]()
 ![photo2]()
