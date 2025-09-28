@@ -53,7 +53,7 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 ### Prerequsites 
 
-This is day 5 of Labs in the program and it has Files Taken directly from the github repo 
+This is day-2 of Labs in the tapeout program and it has Files Taken directly from the github repo 
 ```
 https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop/tree/eb29a38c8125be9020b3577dfeabbe6843bca1fa/my_lib/verilog_model
 ```
