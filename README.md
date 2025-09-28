@@ -4,9 +4,9 @@
 
 | Filename(s)                                 | Screenshot |
 |---------------------------------------------|------------|
-| incompletecase.v                            | [Photo 1](#photo-1) |
-| incompletecase.v (Yosys Block Diagram)      | [Photo 2](#photo-2) |
-| incomplete__if__case.v (GTKWave)            | [Photo 3](#photo-3) |
+| incomp_case.v                            | [Photo 1](#photo-1) |
+| incomp_case.v (Yosys Block Diagram)      | [Photo 2](#photo-2) |
+| incomplete_if_case.v (GTKWave)            | [Photo 3](#photo-3) |
 | incompletecaseif.v (Yosys)                  | [Photo 4](#photo-4) |
 | incompletecaseif2.v (GTKWave)               | [Photo 5](#photo-5) |
 | incompletewaveif2.v (Yosys)                 | [Photo 6](#photo-6) |
