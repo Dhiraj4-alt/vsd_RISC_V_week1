@@ -16,9 +16,9 @@
 | bad_case.v + testbenchofbadcase.v            | [Photo 10](#photo-10) |
 | bad_case.v (Yosys Block Diagram)               | [Photo 11](#photo-11) |
 | bad_case_net.v (Netlist in GTKWave)                | [Photo 12](#photo-12) |
-| mux_generate.v                             | [Photo 13](#photo-13) |
+| mux_generate.v(GTKWave)                           | [Photo 13](#photo-13) |
 | demux_generate.v (Yosys)                   | [Photo 14](#photo-14) |
-| mux_generate.v (GTKWave + Yosys)           | [Photo 15](#photo-15) |
+| mux_generate.v (Yosys)           | [Photo 15](#photo-15) |
 | rca.v (Ripple Carry Adder in GTKWave)       | [Photo 16](#photo-16) |
 
 ---
