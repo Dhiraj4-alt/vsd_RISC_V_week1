@@ -108,13 +108,14 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 
 ### Screenshots
 
-#### OPT1 Screenshot
+#### opt_ckeck.v Screenshot
 <a name="opt1-screenshot"></a>
 ![OPT1 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_17-51-33.png)
 
-#### OPT2 Screenshot
+#### opt_check2.v Screenshot
 <a name="opt2-screenshot"></a>
-![OPT2 YoSys Output](screenshots/OPT2_synth.png)
+![OPT2 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_17-57-25.png)
+)
 
 #### OPT3 Screenshot
 <a name="opt3-screenshot"></a>
@@ -122,9 +123,10 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 
 #### OPT4 Screenshot
 <a name="opt4-screenshot"></a>
-![OPT4 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_17-57-25.png)
+![OPT4 YoSys Output](
 
-#### OPT5 Screenshot
+
+#### multiple_module_opt check
 <a name="opt5-screenshot"></a>
 ![OPT5 YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-19-18.png)
 
