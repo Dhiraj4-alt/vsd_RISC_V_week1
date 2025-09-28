@@ -11,9 +11,8 @@
 | BadMux                  | [Photo 4](#photo-4) |
 | TBBadMux (TestBench)    | [Photo 5](#photo-5) |
 | BlockingCaveat          | [Photo 6](#photo-6) |
-| BlockingCaveat (TB)     | [Photo 7](#photo-7) |
-| BlockingCaveat Synth vs Non-Synth | [Photo 8](#photo-8) |
-| YoASIS Block Diagram (TernaryOperatorMux) | [Photo 9](#photo-9) |
+| BlockingCaveat Synth vs Non-Synth | [Photo 7](#photo-7) |
+| YoASIS Block Diagram (TernaryOperatorMux) | [Photo 8](#photo-8) |
 
 ---
 
@@ -35,14 +34,12 @@
 ![Photo 5](photo5.png)
 
 ### Photo 6
-![Photo 6](photo6.png)
+![Photo 6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_11-50-12.png)
+
 
 ### Photo 7
-![Photo 7](photo7.png)
+![Photo 7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_12-02-18.png)
 
 ### Photo 8
-![Photo 8](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_12-02-18.png)
-
-### Photo 9
-![Photo 9](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_12-51-24.png)
+![Photo 8](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day4_Labs/Screenshot_2025-09-27_12-51-24.png)
 --
