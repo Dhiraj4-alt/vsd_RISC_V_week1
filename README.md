@@ -55,15 +55,26 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 | File / Module               | Synthesis Type         | Photos          |
 |-----------------------------|------------------------|-----------------|
-| multiple_modules.v(Yosys)   | Synthysis         | Photo1()Photo2()|
-| submodule1.v(Yosys)         | Single Sub-module Synth| Photo3()Photo4()|
-| multiple_modules_.v         | Hierarchical Synthesis | Photo5()Photo6()|
+| multiple_modules.v(Yosys)   | Synthysis         | [Photo1](#photo1)[Photo2](#photo2)|
+| submodule1.v(Yosys)         | Single Sub-module Synth| [Photo3](#photo3)[Photo4](#photo4)|
+| multiple_modules_.v         | Hierarchical Synthesis | [Photo5](#photo5)[Photo6](#photo6)|
 
+#### phot1
 ![photo1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-31-42.png)
+
+#### photo2
 ![photo2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-34-22.png)
+
+#### photo3
 ![photo3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-36-04.png)
+
+#### photo4
 ![photo4](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-47-25.png)
+
+#### photo5
 ![photo5](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-40-51.png)
+
+#### photo6
 ![photo6](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day2_Labs/Screenshot_2025-09-23_20-36-04.png)
 
 ---
