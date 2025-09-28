@@ -55,7 +55,7 @@ Useful to analyze the full gate-level netlist and for synthesis comparisons betw
 
 | File / Module               | Synthesis Type         | Photos          |
 |-----------------------------|------------------------|-----------------|
-| multiple_modules.v(Yosys)   | RTL Simulation         | Photo1()Photo2()|
+| multiple_modules.v(Yosys)   | Synthysis         | Photo1()Photo2()|
 | submodule1.v(Yosys)         | Single Sub-module Synth| Photo3()Photo4()|
 | multiple_modules_.v         | Hierarchical Synthesis | Photo5()Photo6()|
 
