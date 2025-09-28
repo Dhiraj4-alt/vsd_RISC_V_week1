@@ -10,15 +10,15 @@
 | incomp_if.v (Yosys)                  | [Photo 4](#photo-4) |
 | incomp_if2.v (GTKWave)               | [Photo 5](#photo-5) |
 | incomp_if2.v (Yosys)                 | [Photo 6](#photo-6) |
-| complete_case (GTKWave)                    | [Photo 7](#photo-7) |
-| complete_case (Yosys)                      | [Photo 8](#photo-8) |
-| partial__case__assign (Yosys)               | [Photo 9](#photo-9) |
-| badcase.v + testbenchofbadcase.v            | [Photo 10](#photo-10) |
-| badcase (Yosys Block Diagram)               | [Photo 11](#photo-11) |
-| badcase (Netlist in GTKWave)                | [Photo 12](#photo-12) |
-| mux__generate.v                             | [Photo 13](#photo-13) |
-| demux__generate.v (Yosys)                   | [Photo 14](#photo-14) |
-| mux__generate.v (GTKWave + Yosys)           | [Photo 15](#photo-15) |
+| comp_case.v (GTKWave)                    | [Photo 7](#photo-7) |
+| comp_case.v (Yosys)                      | [Photo 8](#photo-8) |
+| partial_case_assign.v (Yosys)               | [Photo 9](#photo-9) |
+| bad_case.v + testbenchofbadcase.v            | [Photo 10](#photo-10) |
+| bad_case.v (Yosys Block Diagram)               | [Photo 11](#photo-11) |
+| bad_case_net.v (Netlist in GTKWave)                | [Photo 12](#photo-12) |
+| mux_generate.v                             | [Photo 13](#photo-13) |
+| demux_generate.v (Yosys)                   | [Photo 14](#photo-14) |
+| mux_generate.v (GTKWave + Yosys)           | [Photo 15](#photo-15) |
 | rca.v (Ripple Carry Adder in GTKWave)       | [Photo 16](#photo-16) |
 
 ---
