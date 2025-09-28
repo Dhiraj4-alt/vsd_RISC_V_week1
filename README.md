@@ -49,7 +49,16 @@ Combines all modules into a single hierarchy, removing sub-module boundaries.
 
 Useful to analyze the full gate-level netlist and for synthesis comparisons between hierarchical vs flattened designs.
 
+---
 
+### Prerequsites 
+
+This is day 5 of Labs in the program and it has Files Taken directly from the github repo 
+```
+https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop/tree/eb29a38c8125be9020b3577dfeabbe6843bca1fa/my_lib/verilog_model
+```
+For steps of Execution You can refer 
+the [day1_Labs](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day1_Labs/README.md) of this main Repo
 
 
 ---
