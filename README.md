@@ -26,16 +26,16 @@
 ## Screenshots
 
 ### Photo 1
-![Photo 1](photo1.png)
+![Photo 1](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_13-06-41.png)
 
 ### Photo 2
-![Photo 2](photo2.png)
+![Photo 2](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_13-12-01.png)
 
 ### Photo 3
-![Photo 3](photo3.png)
+![Photo 3](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_13-37-03.png)
 
 ### Photo 4
-![Photo 4](photo4.png)
+![Photo 4](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_13-40-28.png)
 
 ### Photo 5
 ![Photo 5](photo5.png)
