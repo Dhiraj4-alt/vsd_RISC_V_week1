@@ -128,9 +128,9 @@ Asynchronous vs Synchronous DFF: Asynchronous responds immediately to reset/set;
 <a name="opt5-screenshot"></a>
 ![OPT5 YoSys Output](screenshots/OPT5_synth.png)
 
-#### OPT_CHECK Screenshot
-<a name="optcheck-screenshot"></a>
-![OPT_CHECK YoSys Output](screenshots/OPT_CHECK_syn)### Screenshots
+#### OPT6 Screenshot
+<a name="opt6-screenshot"></a>
+![OPT_CHECK YoSys Output](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day3_Labs/Screenshot_2025-09-24_18-21-13.png)
 
 #### dff1 Screenshot
 <a name="dff1-screenshot"></a>
