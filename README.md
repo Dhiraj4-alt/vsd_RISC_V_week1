@@ -46,7 +46,8 @@
 ### Photo 7
 ![Photo 7](https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-01-50.png)
 
-### Photo 8![Photo 8]https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-03-38.png)
+### Photo 8
+![Photo 8]https://github.com/Dhiraj4-alt/vsd_RISC_V_week1/blob/day5_Labs/Screenshot_2025-09-27_14-03-38.png)
 
 ### Photo 9
 ![Photo 9](photo9.png)
